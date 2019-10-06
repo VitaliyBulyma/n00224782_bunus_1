@@ -1,0 +1,35 @@
+﻿body {
+    background-color: white;
+}
+
+#page_wraper{
+    background-color: lightcyan;
+    max-width:22em;
+    border: 2px solid black;
+    padding:3em;
+    border-radius: 1em;
+    box-shadow:0.2em 0.2em lightgrey;
+}
+#y_section{
+    
+    padding: 0.5em;
+}
+#x_section {
+    
+    padding: 0.5em;
+}
+}
+#graph{
+    position: relative;
+    padding: 3em 0 0 0;
+    width:100%;
+    height:auto;
+   
+}
+#result_q1{
+    //background-color: lightblue;
+    border-radius:0.5em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0.5em 0 0.5em 0;
+    
+}
