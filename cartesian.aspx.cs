@@ -22,13 +22,13 @@ namespace Cartesian_Plane
                     result_q3.InnerHtml = "";
                     result_q4.InnerHtml = "";
 
-                    // convert input to useful integers and store it in codebehind variables
+                    // convert input to useful integers and store it in code behind variables
                     int User_Input_Y = Convert.ToInt32(user_input_y.Text);
                     int User_Input_X = Convert.ToInt32(user_input_x.Text);
                     //check to which quadrant coordinates belong 
                     if ((User_Input_Y > 0) && (User_Input_X>0))
                     {
-                        result_q1.InnerHtml = "Your coordinates ("+User_Input_X+" , " +User_Input_Y+ ")are in Quadrant 1";
+                        result_q1.InnerHtml = "Your coordinates ("+User_Input_X+" , " +User_Input_Y+ ") are in Quadrant 1";
                     } else if ((User_Input_Y > 0) && (User_Input_X < 0))
                     {
                         result_q2.InnerHtml = "Your coordinates (" + User_Input_X + " , " + User_Input_Y + ")are in Quadrant 2";
@@ -41,9 +41,10 @@ namespace Cartesian_Plane
                     {
                         result_q4.InnerHtml = "Your coordinates (" + User_Input_X + " , " + User_Input_Y + ")are in Quadrant 4";
                     }
+                    // The reason I made 4 different fields for my results is because
                     // I wanted to display results on top of the image on the quadrant 
                     // where they belong. I do not know how to do it at this point. I will
-                    //improve this app when I have more knowledge
+                    //improve this app when I have more knowledge.
                 }
 
             }
